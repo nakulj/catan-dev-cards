@@ -1,0 +1,25 @@
+{
+  "name": "catan-dev-cards",
+  "version": "1.0.0",
+  "description": "Shared deck of Catan development cards.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nakulj/catan-dev-cards.git"
+  },
+  "author": "Nakul Joshi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nakulj/catan-dev-cards/issues"
+  },
+  "homepage": "https://github.com/nakulj/catan-dev-cards#readme",
+  "dependencies": {
+    "boardgame.io": "^0.42.2"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
