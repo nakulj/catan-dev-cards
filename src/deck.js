@@ -2,7 +2,7 @@ const shuffle = require('shuffle-array'),
 
 Knight = 'Knight';
 VictoryPoint = 'Victory Point';
-YearOfPlenty = 'Year of Plenty'; 
+YearOfPlenty = 'Year of Plenty';
 Monopoly = 'Monopoly';
 RoadBuilding = 'Road Building';
 
@@ -15,4 +15,12 @@ function make() {
     ...Array(2).fill(RoadBuilding),
   ]);
 }
-module.exports = {Knight, VictoryPoint, YearOfPlenty, Monopoly, RoadBuilding, make};
+
+module.exports = {
+  Knight,
+  VictoryPoint,
+  YearOfPlenty,
+  Monopoly,
+  RoadBuilding,
+  make
+};
