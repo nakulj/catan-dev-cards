@@ -17,7 +17,8 @@
   },
   "homepage": "https://github.com/nakulj/catan-dev-cards#readme",
   "dependencies": {
-    "boardgame.io": "^0.42.2"
+    "boardgame.io": "^0.42.2",
+    "shuffle-array": "^1.0.1"
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.4"
