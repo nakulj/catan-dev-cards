@@ -4,8 +4,10 @@
   "description": "Shared deck of Catan development cards.",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "parcel index.html --open"
   },
+  "browserslist": "> 0.4% and not ie 11",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nakulj/catan-dev-cards.git"
